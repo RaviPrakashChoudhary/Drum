@@ -45,7 +45,7 @@ document.addEventListener('keypress', function (e) {
     if (e.key == crash.innerHTML) {
         var audio = new Audio('crash.mp3');
         audio.play();
-        
+
     } else if (e.key == snare.innerHTML) {
         var audio = new Audio('snare.mp3');
         audio.play();
@@ -82,5 +82,5 @@ document.addEventListener('keypress', function (e) {
         console.log(e.key);
         console.log(kick.innerHTML);
 
-    }        console.log(e.key);
+    } console.log(e.key);
 });
