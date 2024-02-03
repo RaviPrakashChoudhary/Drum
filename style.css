@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: fantasy;
+    text-align: center;
+    font-size: 2rem;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(130deg, rgb(226, 73, 73),rgb(207, 204, 32));
+}
+.canvas{
+    height: 40vh;
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.musicIcons{
+    height: 35vh;
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    height: 100px;
+    width: 100px;
+    margin-left: 20px;
+    border: 6px solid rgb(196, 100, 10);
+    background-color: rgb(187, 192, 196);
+}
+.icon:hover{
+    box-shadow: 0px 0px 20px 20px rgb(218, 59, 11);
+}
+.click{
+    box-shadow: 0px 0px 20px 20px rgb(218, 59, 11);
+}
+
+.crash{
+    background-image: url(crash.png);
+    background-size: cover;
+}
+.kick{
+    background-image: url(kick.png);
+    background-size: cover;
+}
+.snare{
+    background-image: url(snare.png);
+    background-size: cover;
+}
+.tom1{
+    background-image: url(tom1.png);
+    background-size: cover;
+}
+.tom2{
+    background-image: url(tom2.png);
+    background-size: cover;
+}.tom3{
+    background-image: url(tom3.png);
+    background-size: cover;
+}.tom4{
+    background-image: url(tom4.png);
+    background-size: cover;
+}
